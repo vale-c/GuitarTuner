@@ -1,0 +1,21 @@
+{
+  "name": "guitartuner",
+  "version": "1.0.0",
+  "description": "A Guitar Tuner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "node-sass scss/style.scss css/style.css --watch",
+    "compile-sass": "node-sass scss/style.scss css/style.css"
+  },
+  "keywords": [
+    "guitar",
+    "tuner",
+    "javascript"
+  ],
+  "author": "Valentina Calabrese",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
